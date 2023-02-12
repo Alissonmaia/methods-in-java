@@ -39,10 +39,10 @@ public class JavaATM3 {
     
     
      }
-    //método que retornar valores distribuição de notas nova instância 
+    //método que retornar valores distribuição de notas 
     public static int []getbilldistribution (int amount, int [] billvalues) {
         
-        //Array que guardar novos valores das posição de cada notas 
+        //Array que guardar novos valores das posição de cada notas nova instância 
         int [] numberofbills = new int [billvalues.length];
         
         //loop que comparar o tamanho do vetor com i 
