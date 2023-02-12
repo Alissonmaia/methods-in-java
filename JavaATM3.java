@@ -39,7 +39,7 @@ public class JavaATM3 {
     
     
      }
-    //método que retornar valores distribuição de notas 
+    //método que retornar valores distribuição de notas nova instância 
     public static int []getbilldistribution (int amount, int [] billvalues) {
         
         //Array que guardar novos valores das posição de cada notas 
