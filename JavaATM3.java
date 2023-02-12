@@ -48,8 +48,8 @@ public class JavaATM3 {
         //loop que comparar o tamanho do vetor com i 
         for (int i = 0; i < numberofbills.length; i++) { 
             
-            //Definição de array que guardar o calculo 
-            //valor dado pelo indices do array de notas e atualizar valor quantia 
+            //Definição de array que guardar o calculo valor dado pelo indices do array de notas e atualizar valor quantia 
+             
              numberofbills [i] = amount/billvalues [i];
              amount %= billvalues[i];
           }
